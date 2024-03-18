@@ -278,7 +278,7 @@ other applications.
 
 **Solution**: This is a common strategy. For example, when writing longer text in a cell, people often include line breaks, em-dashes,
 etc in their spreadsheet.  Also, when copying data in from applications such as Word, formatting and fancy non-standard characters (such
-as left- and right-aligned quotation marks) are included.  When exporting this data into a coding/statistical environment or into a
+as left- and right-aligned quotation marks) are included.  When exporting this data into a statistical/coding environment or into a
 relational database, dangerous things may occur, such as lines being cut in half and encoding errors being thrown.
 
 General best practice is to avoid adding characters such as newlines, tabs, and vertical tabs.  In other words, treat a text cell as if
