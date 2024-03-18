@@ -305,7 +305,7 @@
         
 <section id="aio-00-intro"><p>Content from <a href="00-intro.html">Introduction</a></p>
 <hr>
-<p>Last updated on 2023-05-25 |
+<p>Last updated on 2024-03-18 |
         
         <a href="https://github.com/datacarpentry/spreadsheet-ecology-lesson/edit/main/episodes/00-intro.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 18 minutes</p>
@@ -339,10 +339,10 @@ the best use of data sets.</li>
 </div>
 </div>
 </div>
-<p>Good data organization is the foundation of your research project.
-Most researchers have data or do data entry in spreadsheets. Spreadsheet
-programs are very useful graphical interfaces for designing data tables
-and handling very basic data quality control functions.</p>
+<p>Good data organization is foundational to most projects. Anybody has
+data or does data entry in spreadsheets. Spreadsheet programs are very
+useful graphical interfaces for designing data tables and handling very
+basic data quality control functions.</p>
 <div class="section level3">
 <h3 id="spreadsheet-outline">Spreadsheet outline<a class="anchor" aria-label="anchor" href="#spreadsheet-outline"></a>
 </h3>
@@ -357,13 +357,16 @@ practices</li>
 </ul>
 <p><em>Overall good data practices</em></p>
 <p>Spreadsheets are good for data entry. Therefore we have a lot of data
-in spreadsheets. Much of your time as a researcher will be spent in this
-‘data wrangling’ stage. It’s not the most fun, but it’s necessary. We’ll
-teach you how to think about data organization and some practices for
-more effective data wrangling. Not only will this save time and effort,
-it also paves the way for more equitable and inclusive science. Making
-our work more accessible provides wider avenues for collaboration and
-improvement!</p>
+in spreadsheets. It’s usually in a ‘shape’ though that doesn’t allow
+algorithms to assist us much, making the availability of a human to (try
+to) interpret it the bottleneck. This ‘shape’ can be improved, if you
+understand the meaning and context of the data, by ‘data wrangling’. The
+earlier in the process you do this, the less time it takes. It’s not the
+most fun, but it’s necessary. We’ll teach you how to think about data
+organization and some practices for more effective data wrangling. Not
+only will this save time and effort, it also paves the way for more
+equitable and inclusive analysis. Making our work more accessible
+provides wider avenues for collaboration and improvement!</p>
 </div>
 <div class="section level3">
 <h3 id="what-this-lesson-will-not-teach-you">What this lesson will not teach you<a class="anchor" aria-label="anchor" href="#what-this-lesson-will-not-teach-you"></a>
@@ -400,24 +403,24 @@ make use of Excel examples.</p>
 and even Google Sheets.</p>
 <p>Commands may differ a bit between programs, but the general idea is
 the same.</p>
-<div id="callout1" class="callout">
+<div id="exercise" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="exercise">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ul>
-<li>How many people have used spreadsheets in their research?</li>
+<li>How many people have used spreadsheets in their work?</li>
 <li>How many people have accidentally done something that made them
-frustrated or sad?</li>
+frustrated or sad (much) later?</li>
 </ul>
 </div>
 </div>
 </div>
 <p>Spreadsheets encompass a lot of the things we need to be able to do
-as researchers. We can use them for:</p>
+as knowledge workers. We can use them for:</p>
 <ul>
 <li>Data entry</li>
 <li>Organizing data</li>
@@ -454,21 +457,23 @@ easy to accidentally apply a slightly different formula to multiple
 adjacent cells. When using a command-line based statistics program like
 R or SAS, it’s practically impossible to apply a calculation to one
 observation in your dataset but not another unless you’re doing it on
-purpose.</p>
+purpose. Luckily, many powerful combinations of both command-line and
+graphical interaction do exist, e.g. Rstudio, Jamovi, JASPstats and many
+more.</p>
 <div class="section level3">
 <h3 id="using-spreadsheets-for-data-entry-and-cleaning">Using Spreadsheets for Data Entry and Cleaning<a class="anchor" aria-label="anchor" href="#using-spreadsheets-for-data-entry-and-cleaning"></a>
 </h3>
 <p>However, there are circumstances where you might want to use a
 spreadsheet program to produce “quick and dirty” calculations or
 figures, and data cleaning will help you use some of these features.
-Data cleaning also puts your data in a better format prior to
-importation into a statistical analysis program. We will show you how to
-use some features of spreadsheet programs to check your data quality
-along the way and produce preliminary summary statistics.</p>
+Data cleaning also puts your data in a better format prior to importing
+into a statistical analysis program. We will show you how to use some
+features of spreadsheet programs to check your data quality along the
+way and produce preliminary summary statistics.</p>
 <p>In this lesson, we will assume that you are most likely using Excel
 as your primary spreadsheet program - there are others (gnumeric, Calc
 from OpenOffice), and their functionality is similar, but Excel seems to
-be the program most used by biologists and ecologists.</p>
+be the program most used in many organizations.</p>
 <p>In this lesson we’re going to talk about:</p>
 <ol style="list-style-type: decimal">
 <li><a href="01-format-data.html">Formatting data tables in
@@ -487,8 +492,8 @@ spreadsheets</a></li>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Good data organization is the foundation of any research
-project.</li>
+<li>Good data organization is foundational to most projects and
+organizations.</li>
 </ul>
 </div>
 </div>
@@ -551,12 +556,12 @@ doing your data entry or setting up your experiment. You can set things
 up in different ways in spreadsheets, but some of these choices can
 limit your ability to work with the data in other programs or have the
 you-of-6-months-from-now or your collaborator work with the data.</p>
-<div id="callout1" class="callout">
+<div id="note" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
+<div id="note" class="callout-inner">
+<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note"></a>
 </h3>
 <div class="callout-content">
 <p>The best layouts/formats (as well as software and interfaces) for
@@ -584,12 +589,12 @@ folder as the data file.</li>
 </ul>
 <p>This might be an example of a spreadsheet setup:</p>
 <figure><img src="../fig/spreadsheet-setup-updated.png" alt="spreadsheet setup" class="figure mx-auto d-block"></figure><p>Put these principles in to practice today during your Exercises.</p>
-<div id="callout2" class="callout">
+<div id="note-1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="note-1">Note<a class="anchor" aria-label="anchor" href="#note-1"></a>
+<div id="note-1" class="callout-inner">
+<h3 class="callout-title">Note<a class="anchor" aria-label="anchor" href="#note-1"></a>
 </h3>
 <div class="callout-content">
 <p>This is out of scope for this lesson, but for information on how to
@@ -694,7 +699,7 @@ wrong with this data and how you would fix it.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>Take about 10 minutes to work on this exercise.</li>
@@ -1403,7 +1408,7 @@ dataset without the field assistant realising.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><img src="../fig/solution_exercise_1_dates.png" class="figure"> {alt=‘dates, exersize
 1’ .output}</p>
@@ -1443,7 +1448,7 @@ functions <code>HOUR()</code>, <code>MINUTE()</code> and
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>To get the year, type <code>=YEAR(NOW())</code> into any cell in
@@ -1550,7 +1555,7 @@ Excel?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ul>
 <li>Click to the <code>dates</code> tab of the workbook and double-click
@@ -2112,7 +2117,7 @@ in a format that can be used consistently by most programs.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -2135,8 +2140,8 @@ in a format that can be used consistently by most programs.</li>
   "url": "https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/aio.html",
   "identifier": "https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/aio.html",
   "dateCreated": "2015-03-09",
-  "dateModified": "2024-03-12",
-  "datePublished": "2024-03-12"
+  "dateModified": "2024-03-18",
+  "datePublished": "2024-03-18"
 }
 
   </script><script>
