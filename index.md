@@ -4,15 +4,13 @@ site: sandpaper::sandpaper_site
 
 
 
-Good data organization is the foundation of any research project. Most
-researchers have data in spreadsheets, so it's the place that many research
-projects start.
+Good data organization foundational to most projects. Anybody has data or does data entry in spreadsheets, so it's where most 'working with data' starts.
 
 We organize data in spreadsheets in the ways that we as humans want to work with the data,
 but computers require that data be organized in particular ways. In order
 to use tools that make computation more efficient, such as programming
 languages like R or Python, we need to structure our data the way that
-computers need the data. Since this is where most research projects start,
+computers need the data. Since this is where most projects start,
 this is where we want to start too!
 
 In this lesson, you will learn:
@@ -24,7 +22,7 @@ In this lesson, you will learn:
 - Exporting data from spreadsheets
 
 In this lesson, however, you will *not* learn about data analysis with spreadsheets.
-Much of your time as a researcher will be spent in the initial 'data wrangling'
+Much of your time as a knowledge worker will be spent in the initial 'data wrangling'
 stage, where you need to organize the data to perform a proper analysis later.
 It's not the most fun, but it is necessary. In this lesson you will
 learn how to think about data organization and some practices for more
