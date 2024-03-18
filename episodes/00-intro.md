@@ -16,8 +16,7 @@ exercises: 3
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Good data organization is the foundation of your research
-project. Most researchers have data or do data entry in
+Good data organization is foundational to most projects. Anybody has data or does data entry in
 spreadsheets. Spreadsheet programs are very useful graphical
 interfaces for designing data tables and handling very basic data
 quality control functions.
@@ -36,11 +35,12 @@ After this lesson, you will be able to:
 
 Spreadsheets are good for data entry. Therefore we have a lot of data
 in spreadsheets.
-Much of your time as a researcher will be spent in this 'data wrangling' stage.
+It's usually in a 'shape' though that doesn't allow algorithms to assist us much, making the availability of a human to (try to) interpret it the bottleneck.
+This 'shape' can be improved, if you understand the meaning and context of the data, by 'data wrangling'. The earlier in the process you do this, the less time it takes.
 It's not the most fun, but it's necessary. We'll teach you how to think
 about data organization and some practices for more effective data wrangling. Not only
 will this save time and effort, it also paves the way for more equitable and inclusive
-science. Making our work more accessible provides wider avenues for collaboration
+analysis. Making our work more accessible provides wider avenues for collaboration
 and improvement!
 
 ### What this lesson will not teach you
@@ -78,15 +78,15 @@ is the same.
 
 ## Exercise
 
-- How many people have used spreadsheets in their research?
+- How many people have used spreadsheets in their work?
 - How many people have accidentally done something that made them
-  frustrated or sad?
+  frustrated or sad (much) later?
   
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Spreadsheets encompass a lot of the things we need
-to be able to do as researchers. We can use them for:
+to be able to do as knowledge workers. We can use them for:
 
 - Data entry
 - Organizing data
@@ -122,13 +122,14 @@ slightly different formula to multiple adjacent cells. When using a
 command-line based statistics program like R or SAS, it's practically
 impossible to apply a calculation to one observation in your
 dataset but not another unless you're doing it on purpose.
+Luckily, many powerful combinations of both command-line and graphical interaction do exist, e.g. Rstudio, Jamovi, JASPstats and many more.
 
 ### Using Spreadsheets for Data Entry and Cleaning
 
 However, there are circumstances where you might want to use a spreadsheet
 program to produce "quick and dirty" calculations or figures, and data
 cleaning will help you use some of these features. Data cleaning also
-puts your data in a better format prior to importation into a
+puts your data in a better format prior to importing into a
 statistical analysis program. We will show you how to use some features of
 spreadsheet programs to check your data quality along the way and produce
 preliminary summary statistics.
@@ -136,7 +137,7 @@ preliminary summary statistics.
 In this lesson, we will assume that you are most likely using Excel as
 your primary spreadsheet program - there are others (gnumeric, Calc
 from OpenOffice), and their functionality is similar, but Excel seems
-to be the program most used by biologists and ecologists.
+to be the program most used in many organizations.
 
 In this lesson we're going to talk about:
 
@@ -148,7 +149,7 @@ In this lesson we're going to talk about:
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Good data organization is the foundation of any research project.
+- Good data organization is foundational to most projects and organizations.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
