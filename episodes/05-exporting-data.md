@@ -31,8 +31,7 @@ version) isn't a good idea. Why?
 - Different versions of Excel may handle data
   differently, leading to inconsistencies.
 
-- Finally, more journals and grant agencies are requiring you
-  to deposit your data in a data repository, and most of them don't
+- Finally, for the reasons mentioned above, some software/websites/organizations that you work with don't
   accept Excel format. It needs to be in one of the formats
   discussed below.
 
