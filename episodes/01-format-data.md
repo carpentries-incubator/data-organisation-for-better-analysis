@@ -17,7 +17,7 @@ exercises: 20
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
+The most common mistake made is treating spreadsheet programs like notebooks, that is,
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers don't view information the same way, and
@@ -32,11 +32,10 @@ literal).
 
 This is why it's extremely important to set up well-formatted
 tables from the outset - before you even start entering data from
-your very first preliminary experiment. Data organization is the
-foundation of your research project. It can make it easier or harder
+your very first preliminary task. It can make it easier or harder
 to work with your data throughout your analysis, so it's worth
 thinking about when you're doing your data entry or setting up your
-experiment. You can set things up in different ways in spreadsheets,
+(physical/digital) work environment. You can set things up in different ways in spreadsheets,
 but some of these choices can limit your ability to work with the data in other programs or
 have the you-of-6-months-from-now or your collaborator work with the
 data.
@@ -58,7 +57,7 @@ automate the conversion from one to another.
 When you're working with spreadsheets, during data clean up or analyses, it's
 very easy to end up with a spreadsheet that looks very different from the one
 you started with. In order to be able to reproduce your analyses or figure out
-what you did when Reviewer #3 asks for a different analysis, you should
+what you did when a colleague asks for a different analysis, you should
 
 - create a new file with your cleaned or analyzed data. Don't modify
   the original dataset, or you will never know where you started!
@@ -96,7 +95,7 @@ The cardinal rule of using spreadsheet programs for data is to keep it "tidy":
 4. Leave the raw data raw - don't change it!
 5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
   ensures that anyone can use the data, and is required by
-  most data repositories.
+  most analysis software.
 
 For instance, we have data from a survey of small mammals in a desert
 ecosystem. Different people have gone to the field and entered data into a spreadsheet. They keep track of things like species, plot,
@@ -125,9 +124,9 @@ So, instead we should have:
 ## Discussion
 
 If not already discussed, introduce the dataset that will be used in this
-lesson, and in the other ecology lessons, the [Portal Project Teaching Dataset](https://www.datacarpentry.org/ecology-workshop/data/).
+lesson, the [Portal Project Teaching Dataset](https://www.datacarpentry.org/ecology-workshop/data/).
 
-The data used in the ecology lessons are observations of a small mammal community in southern Arizona. This is part of a project studying the effects of rodents and ants on the plant community that has been running for almost 40 years. The rodents are sampled on a series of 24 plots, with different experimental manipulations controlling which rodents are allowed to access which plots.
+These are observations of a small mammal community in southern Arizona. This is part of a project studying the effects of rodents and ants on the plant community that has been running for almost 40 years. The rodents are sampled on a series of 24 plots, with different experimental manipulations controlling which rodents are allowed to access which plots.
 
 This is a real dataset that has been used in over 100 publications. We've simplified it just a little bit for the workshop, but you can download the full dataset and work with it using exactly the same tools we'll learn about today.  
 
