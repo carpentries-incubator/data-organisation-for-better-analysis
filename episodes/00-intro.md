@@ -52,6 +52,9 @@ and improvement!
 If you're looking to do this, a good reference is
 [Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/), published by O'Reilly.
 
+- query your collection of Excel sheets; look into databases
+- How to organize data in your organisation; look at http://datacentricmanifesto.org/ for that
+- how to connect your data to other data elsewhere; look into Linked data and FAIR data
 ***
 
 ### Why aren't we teaching data analysis in spreadsheets
