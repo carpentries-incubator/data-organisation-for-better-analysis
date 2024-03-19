@@ -4,7 +4,7 @@ site: sandpaper::sandpaper_site
 
 
 
-Good data organization foundational to most projects. Anybody has data or does data entry in spreadsheets, so it's where most 'working with data' starts.
+Good data organization is foundational to most projects. Anybody has data or does data entry in spreadsheets, so it's where most 'working with data' starts.
 
 We organize data in spreadsheets in the ways that we as humans want to work with the data,
 but computers require that data be organized in particular ways. In order
